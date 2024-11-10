@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+  <div style="text-align: center;">
+    <header>
+        <img src="eco_nature.svg" height="70px" style="padding-left: 9px;">
+        <h2 style="padding-right: 800px; font-size: 22.5px;" id="logo">Zero Waste</h2>
+        <nav class="navbar">
+            <ul>
+                <a href="home.html" style="margin:20px;"> HOME</a>
+                <a href="about.html" style="margin:20px;">ABOUT</a>
+                <a href="services.html" style="margin:20px;">SERVICES</a>
+                <a href="CONTACT US.html" style="margin:20px;">CONTACT US</a>
+            </ul>
+        </nav>
+    </header>
+</div>
+    <main>
+        <div class="contact-section" id="one">
+            <div class="form-container">
+                <h1>Contact Us</h1>
+                <p>Fill out the form below to send us a message.</p>
+
+                <form action="https://api.web3forms.com/submit" method="POST" id="form">
+                    <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE" />
+                    <input type="hidden" name="subject" value="New Submission from Web3Forms" />
+                    <input type="checkbox" name="botcheck" style="display: none;" />
+
+                    <!-- Name Input -->
+                    <label for="name">Full Name:</label>
+                    <input type="text" name="name" id="name" placeholder="Enter Your Name" required />
+
+                    <!-- Email Input -->
+                    <label for="email">Email Address:</label>
+                    <input type="email" name="email" id="email" placeholder="Enter Your Email" required />
+
+                    <!-- Phone Input -->
+                    <label for="phone">Phone Number:</label>
+                    <input type="text" name="phone" id="phone" placeholder="+91 XXXXXXXXXXX" required />
+
+                    <!-- Message Input -->
+                    <label for="message">Your Message:</label>
+                    <textarea name="message" id="message" rows="5" placeholder="Your Message" required></textarea>
+
+                    <!-- Submit Button -->
+                    <button type="submit">Send Message</button>
+
+                    <!--Reset Button-->
+                    <button type="reset">Reset</button>
+                </form>
+            </div>
+        </div>
+    </main>
+<div class="footer">
+  <footer>
+    <p id="para">Zero Waste India is a movement aimed at reducing the country's waste generation by promoting sustainable practices like recycling, composting, and reducing the use of single-use plastics. The goal is to minimize the amount of waste sent to landfills and incinerators, while encouraging people to adopt eco-friendly habits such as using reusable products, conserving resources, and supporting local, environmentally conscious businesses. By working together, individuals and communities in India can help create a cleaner, healthier environment for future generations.</p>
+    <center>
+      <p><h2 style="padding-bottom: 10px;">Contact Us For Any Queries</h2></p>
+      <p style="font-style: calc(20px);"> zero_wastage@gmail.com | +91 9876 5432 24 </p>
+      <p>Coimbatore Rathinam TechZone ,641021</p>
+      <p style="color:white;"> Copyrights &copy;2024 Our Target To Zero Waste India &gt;&gt;&gt;</p>
+    </center>
+  </footer>
+  </div>  
+</body>
+</html>

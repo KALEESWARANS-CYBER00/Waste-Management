@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000000;
+    color: white;
+}
+
+header {
+    background-color: black;
+    color: rgb(255, 2, 2);
+    padding: 10px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0px 5px 10px rgba(169, 0, 216, 0.99);
+    width: 100%;
+    border: 10px;
+}
+
+.navbar ul {
+    font-weight: bold;
+    white-space: nowrap;
+    margin-left: 100px;
+    list-style: none;
+    display: flex;
+    gap: 75px;
+    text-align: right;
+
+
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #0a00cdfc;
+    text-decoration: underline solid;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+footer:hover {
+    color: black;
+
+}
+
+footer {
+    background-color: #330a5e;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9m;
+    margin-top: 100em;
+    box-shadow: 17px rgba(169, 0, 216, 0.99);
+
+}
+
+
+@media (max-width: 768px) {
+    .navbar ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+
+
+}
+
+.h1_1 {
+    color: rgb(55, 255, 0);
+    font-family: monospace;
+    font-size: 3em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: black;
+}
+
+.h1_1:hover {
+    color: rgba(169, 0, 216, 0.99);
+
+}
+
+.one {
+    margin-left: 85%;
+}
+
+#logo {
+    color: blue;
+}
+
+#logo:hover {
+    color: whitesmoke;
+}
+
+.bgd_image {
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    height: 68em;
+}
+
+.hom_sec1 {
+    background-image: url(images/earthbt.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 15em;
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.hom_sec1 h1 {
+    color: rgb(222, 190, 220);
+    font: weight:caption;
+    width: 10px;
+    text-shadow: 2px 5px 10px blueviolet;
+    padding-left: 4em;
+    font-size: 5em;
+    padding-bottom: 50px;
+    font-family: cursive;
+}
+
+.hom_sec3 {
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 25em;
+}
+hr {
+    border: 1px dashed #666;
+  height: 5px;
+  background-color: #333;
+  width: 60%;
+  margin: 20px auto;
+  background: linear-gradient(to right, #ff0101, #007423);
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+hr::before{
+  content: "";
+  position: relative;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  transform: translateY(-50%);
+}
+.get{
+    text-decoration: none;
+}
+.get:hover{
+    text-decoration: underline dashed;
+}
